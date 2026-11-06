@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Static website deployment - No build required"
+artifacts:
+  files:
+    - '**/*'

@@ -7,6 +7,7 @@ The project demonstrates how to deploy a static website from a GitHub repository
 ---
 
 ## 🏗️ Architecture
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d09d7a9325d1cf09ce2c3e8e0d18e9691f49f6b/screenshots/Secure%20S3%20CloudFront%20CI_CD%20Architecture.png)
 
 ```text
                          👤 USER

@@ -164,6 +164,9 @@ Live Website
 
 # 📦 GitHub Repository
 
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/1.png)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/2.png)
+
 GitHub is used as the source code repository.
 
 Example repository structure:
@@ -184,6 +187,8 @@ The repository contains the static website files that are deployed through CodeP
 ---
 
 # ⚙️ AWS CodePipeline
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/5.png)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/9.png)
 
 AWS CodePipeline automates the deployment process.
 
@@ -209,6 +214,8 @@ When a new change is pushed to the configured branch, CodePipeline can automatic
 ---
 
 # 🗄️ Amazon S3
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/3.png)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/4.png)
 
 Amazon S3 is used to store the static website files.
 
@@ -249,6 +256,7 @@ This provides a more secure architecture than exposing the S3 bucket publicly.
 ---
 
 # 🔐 Origin Access Control (OAC)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/6.png)
 
 **Origin Access Control** is used to allow CloudFront to securely access objects stored in the private S3 bucket.
 
@@ -270,6 +278,7 @@ The S3 bucket policy grants the CloudFront distribution permission to retrieve o
 ---
 
 # 🌎 Amazon CloudFront
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/7.png)
 
 Amazon CloudFront is used as the CDN layer.
 
@@ -314,6 +323,7 @@ For a custom domain, **Amazon Route 53** and **AWS Certificate Manager (ACM)** c
 ---
 
 # 🛡️ AWS WAF
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/8.png)
 
 AWS WAF is used to protect the CloudFront distribution from unwanted or malicious web requests.
 
@@ -495,6 +505,9 @@ An unusual increase in blocked requests can indicate suspicious traffic or attac
 ---
 
 # 📧 Amazon SNS
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/12.png)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/13.png)
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/14.png)
 
 Amazon SNS is used to send CloudWatch alarm notifications.
 
@@ -688,6 +701,7 @@ Live Website
 ---
 
 # 🔄 CloudFront Cache Invalidation
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/10.png)
 
 CloudFront caches objects at edge locations.
 
@@ -722,6 +736,7 @@ For production environments, invalidating only changed files can reduce unnecess
 # 🧪 Testing
 
 ## Website Test
+![](https://github.com/Rajjan-kumar-26/s3-cloudfront-cicd/blob/2d5295e61fc8effa60414b031e11095fc4962285/screenshots/15.png)
 
 Open:
 
